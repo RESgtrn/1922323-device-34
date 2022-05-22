@@ -7,9 +7,11 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
+        <h1>
         <a class="navigation-logo" href="index.html">
           <img class="page-header-logo" alt="Логотип магазина элетроники «Девайс»." src="">
         </a>
+        </h1>
         <section class="navigation-user">
           <ul class="navigation-search">
             <li class="navigation-item">
@@ -83,5 +85,33 @@
         </section>
       </nav>
     </header>
+    <section class="top-product-gallery">
+      <h2 class="gallery-title visually-hidden">Топ популярных товаров</h2>
+      <img class="slider-image" src="" alt="Популярные товары" >
+      <button class="slider-button slider-prev" type="button">
+        <span class="visually-hidden">Предыдущий товар</span>
+      </button>
+      <button class="slider-button slider-next" type="button">
+        <span class="visually-hidden">Следующий товар</span>
+      </button>
+
+      <ol class="slider-pagination">
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button slider-pagination-button-current" type="button">
+            <span class="visually-hidden">1 карточка товара</span>
+          </button>
+        </li>
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button" type="button">
+            <span class="visually-hidden">2 карточка товара</span>
+          </button>
+        </li>
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button" type="button">
+            <span class="visually-hidden">3 карточка товара</span>
+          </button>
+        </li>
+      </ol>
+    </section>
   </body>
 </html>
